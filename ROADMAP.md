@@ -1,45 +1,47 @@
-# Deming Roadmap
+Voici la traduction exacte et formatée en français de ton fichier `ROADMAP.md` :
 
-This document contains the evolutions planned in 2024.
+# Feuille de route Deming
 
-## Important,
-
-* [ ] Non-regression tests
-* [o] Continuous integration in GitHub
-* [ ] Docker
-* [x] Create action plans not linked to a measurement
-* [ ] Change Logs
-* [ ] Automatically remove measurements after a defined number of months
-* [x] Measurement not linked to a control
-* [x] Measurement linked to multiple controls
-
-## Improvements
-
-* [ ] Connvert Markdown to ODT in reports
-* [ ] Migrate to [Metro5](https://github.com/olton/metro5) or [Bootstrap](https://getbootstrap.com/)
-* [ ] Configure scoring system
-* [o] Migration script from ISO 27001:2013 to ISO 27001:2022
-* [o] Manage non-conformities
-* [ ] Improve action plan with status (%)
-* [ ] Dark theme (https://metroui.org.ua/examples/schemes/scheme.html)
-* [ ] Import Security Controls from [OSCAL](https://pages.nist.gov/OSCAL/)
-
-# Evalutions made in 2023
+Ce document contient les évolutions prévues en 2024.
 
 ## Important
 
-* [x] Code Quality controls
+-   [ ] Tests de non-régression
+-   [o] Intégration continue dans GitHub
+-   [ ] Docker
+-   [x] Créer des plans d'action non liés à une mesure
+-   [ ] Journaux des modifications (Change Logs)
+-   [ ] Suppression automatique des mesures après un nombre défini de mois
+-   [x] Mesure non liée à un contrôle
+-   [x] Mesure liée à plusieurs contrôles
 
-## Improvements
+## Améliorations
 
-* [x] Database search tool
-* [x] ISO 27002:2022 - update metrics based on the new version of ISO 27002
-* [x] Attributes (tags) - add attributes on security measures
-* [x] Improve test data generation
-* [x] User documentation
-* [x] Implement import/export of controls
-* [x] Fix column sort with date
-* [x] Send email notification to users for carrying out controls
-* [x] API
-* [x] Introduce controls by scope
-* [x] Report of applicable/non-applicable controls by scope
+-   [ ] Conversion du Markdown vers ODT dans les rapports
+-   [ ] Migrer vers [Metro5](https://github.com/olton/metro5) ou [Bootstrap](https://getbootstrap.com/)
+-   [ ] Configurer le système de notation (scoring)
+-   [o] Script de migration de la norme ISO 27001:2013 vers ISO 27001:2022
+-   [o] Gestion des non-conformités
+-   [ ] Améliorer les plans d'action avec un statut en pourcentage (%)
+-   [ ] Thème sombre (https://metroui.org.ua/examples/schemes/scheme.html)
+-   [ ] Importer les contrôles de sécurité depuis [OSCAL](https://pages.nist.gov/OSCAL/)
+
+# Évolutions réalisées en 2023
+
+## Important
+
+-   [x] Contrôles qualité du code
+
+## Améliorations
+
+-   [x] Outil de recherche dans la base de données
+-   [x] ISO 27002:2022 - mise à jour des métriques selon la nouvelle version de l'ISO 27002
+-   [x] Attributs (tags) - ajouter des attributs aux mesures de sécurité
+-   [x] Amélioration de la génération des données de test
+-   [x] Documentation utilisateur
+-   [x] Implémenter l'import/export des contrôles
+-   [x] Correction du tri par colonne avec date
+-   [x] Envoyer une notification par email aux utilisateurs pour réaliser les contrôles
+-   [x] API
+-   [x] Introduire les contrôles par périmètre (scope)
+-   [x] Rapport des contrôles applicables/non-applicables par périmètre

@@ -3,7 +3,7 @@
     flex-flow: column;
     width: 100%;
 }
-.MyCalendar .header  {
+.MyCalendar .header {
     margin-top: 0px;
     margin-bottom: 2px;
     font-size: 14px;
@@ -61,7 +61,7 @@
 }
 
 .MyCalendar .days .day_num a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .MyCalendar .days .day_num .event.blue {
@@ -73,14 +73,14 @@
     cursor: pointer;
 }
 .MyCalendar .days .day_num .event.grey {
-    background-color: #C9CBCF;
+    background-color: #c9cbcf;
     cursor: pointer;
 }
 .MyCalendar .days .day_num .event.lblue {
     background-color: #baccf0;
     cursor: pointer;
 }
-.MyCalendar .days .day_num:nth-child(7n+1) {
+.MyCalendar .days .day_num:nth-child(7n + 1) {
     border-left: 1px solid #e6e9ea;
 }
 .MyCalendar .days .day_num:hover {
